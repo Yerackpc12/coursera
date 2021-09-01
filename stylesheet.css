@@ -1,0 +1,145 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+@media(min-width: 992px ){
+	#maintitle{
+		position: relative;
+		left: 47%;
+		font-size: 32px;
+		padding: 10px;
+	}
+	#box1, #box2, #box3 {
+		box-sizing: border-box
+		position: relative;
+		float: left; 
+		height: 35%;
+		width: 32.6%;
+		border: 1px solid black;
+		margin: 0.33%;
+		padding: 0;
+		background-color: grey;
+	}
+	#title1, #title2, #title3{
+		float: right;
+		margin: 0;
+		padding : 5px;
+		border: 1px solid black;
+		font-size: 24px;
+		font-weight: bold;
+	}
+	#text1, #text2, #text3{
+		clear: right;
+		padding: 10px;
+		font-size: 16px;
+		font-family: arial, helvetica, sans-serif ;
+		font-weight: 50;
+	}
+	#title1{
+		background-color: pink;
+	}
+	#title2{
+		background-color: red;
+	}
+	#title3{
+		background-color: yellow;
+	}
+}
+@media(min-width: 768px ) and (max-width: 992px ){
+	#maintitle{
+		position: relative;
+		left: 47%;
+		font-size: 32px;
+		padding: 10px;
+	}
+	#box1, #box2 {
+		box-sizing: border-box
+		position: relative;
+		float: left; 
+		height: 35%;
+		width: 49%;
+		border: 1px solid black;
+		margin: 0.33%;
+		padding: 0;
+		background-color: grey;
+	}
+	#box3{
+		box-sizing: border-box
+		position: relative;
+		float: left; 
+		height: 35%;
+		width: 98.8%;
+		border: 1px solid black;
+		margin: 0.33%;
+		padding: 0;
+		background-color: grey;
+	}
+	#title1, #title2, #title3{
+		float: right;
+		margin: 0;
+		padding : 5px;
+		border: 1px solid black;
+		font-size: 24px;
+		font-weight: bold;
+	}
+	#text1, #text2, #text3{
+		clear: right;
+		padding: 10px;
+		font-size: 16px;
+		font-family: arial, helvetica, sans-serif ;
+		font-weight: 50;
+	}
+	#title1{
+		background-color: pink;
+	}
+	#title2{
+		background-color: red;
+	}
+	#title3{
+		background-color: yellow;
+	}
+}
+@media(max-width: 768px ){
+	#maintitle{
+		position: relative;
+		left: 47%;
+		font-size: 32px;
+		padding: 10px;
+	}
+	#box1, #box2, #box3 {
+		box-sizing: border-box
+		position: relative;
+		float: left; 
+		height: 35%;
+		width: 98.8%;
+		border: 1px solid black;
+		margin: 0.33%;
+		padding: 0;
+		background-color: grey;
+	}
+	#title1, #title2, #title3{
+		float: right;
+		margin: 0;
+		padding : 5px;
+		border: 1px solid black;
+		font-size: 24px;
+		font-weight: bold;
+	}
+	#text1, #text2, #text3{
+		clear: right;
+		padding: 10px;
+		font-size: 16px;
+		font-family: arial, helvetica, sans-serif ;
+		font-weight: 50;
+	}
+	#title1{
+		background-color: pink;
+	}
+	#title2{
+		background-color: red;
+	}
+	#title3{
+		background-color: yellow;
+	}
+}
